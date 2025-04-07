@@ -1,4 +1,4 @@
-a=list(map(int,input().split()))
+a=list(map(int,input().split()))  
 a.sort()
 result=[]
 for i in range(len(a)-2):
@@ -20,6 +20,8 @@ for i in range(len(a)-2):
             else:
                 right-=1
 print(result)                
-                       
-                
-                    
+ 
+# input:                       
+# a = [-1, 0, 1, 2, -1, -4]               
+# output:
+# [[-1, -1, 2], [-1, 0, 1]]
